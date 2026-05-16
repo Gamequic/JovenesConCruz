@@ -48,7 +48,8 @@ function Navbar() {
         padding: '0 20px',
       }}>
       <div style={{ maxWidth: 1100, margin: '0 auto', height: 60, display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-        <a href="#hero" style={{ textDecoration: 'none', display: 'flex', alignItems: 'baseline', gap: 6 }}>
+        <a href="#hero" style={{ textDecoration: 'none', display: 'flex', alignItems: 'center', gap: 10 }}>
+          <img src="/JovenesConCruz/morena-logo.svg" alt="Morena" style={{ height: 32, width: 'auto', display: 'block', background: '#fff', borderRadius: 4, padding: '2px 4px' }} />
           <span style={{ fontFamily: 'var(--font-head)', fontWeight: 900, fontSize: 11, letterSpacing: 3, color: 'rgba(255,255,255,0.5)', textTransform: 'uppercase' }}>Jóvenes</span>
           <span style={{ fontFamily: 'var(--font-head)', fontWeight: 900, fontSize: 20, color: '#8E2C2D', letterSpacing: 1 }}>CON CRUZ</span>
         </a>
